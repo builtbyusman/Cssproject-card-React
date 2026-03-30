@@ -1,0 +1,75 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.card {
+    height: 300px;
+    width: 450px;
+    background-color: black;
+    margin: auto; margin-top: 100px;
+    border-radius: 30px;
+    padding: 10px;
+}
+.c-fr {
+    height: 40%;
+    display: flex;
+}
+.c-fr > div {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+#m12 {
+    height: 50px;
+}
+.text {
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+}
+.text2 {
+    font-size: 15px;
+    color: white;
+    text-transform: capitalize;
+}
+#m13 {
+    height: 60px;
+    width: 80px;
+    margin-right: 20px;
+}
+.cfr-sc {
+    justify-content: end;
+}
+.cfr-fr {
+    justify-content: space-evenly;
+}
+.c-sc {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 10px ;
+}
+.c-tr {
+    height: 30%;    
+    display: flex;
+}
+.ctr-fr {
+    height: 100%;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.ctr-sc {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding-top: 15px;
+}
